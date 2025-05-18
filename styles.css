@@ -1,11 +1,42 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
 body {
     background-color: hsl(47, 88%, 63%) !important;
+    height: 100vh;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+main {
+    margin-top: 200px;
+}
 .card {
     border: 1px solid black;
     box-shadow: 10px 10px black;
+    max-width: 350px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.badge {
+    max-width: 70px;
+    text-align: center;
+}
+.text {
+    font-family: "Figtree", sans-serif;
+}
+.date {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.description {
+    color: hsl(0, 0%, 42%);
 }
 
